@@ -9,7 +9,7 @@
 	top:0;
 	right:40%;
 	bottom:0;
-	background:url("/config/workspace/src/assets/Home/bckimg1.png") repeat 0 0;
+	background:url("../assets/Home/bckimg1.png") repeat 0 0;
 	z-index:-1;
 	background-size: cover;
 }
@@ -20,7 +20,7 @@
 	top:0;
 	right:0;
 	bottom:0;
-	background: url("/config/workspace/src/assets/Home/bckimg2.png") repeat 0 0;
+	background: url("../assets/Home/bckimg2.png") repeat 0 0;
 	z-index:-1;
 	background-size: cover;
 }
@@ -36,7 +36,7 @@
 	right: 0;
 	top: 0;
 	bottom: 0;
-	background: url("/config/workspace/src/assets/Home/bckimg1.png");
+	background: url("../assets/Home/bckimg1.png");
 	background-size:  cover;
 	z-index: -1;
 }
