@@ -2,7 +2,6 @@ import React from 'react'
 import bookingsection from "../assets/Bookings/bookingsection.png"
 import Sidebar from "./Sidebar";
 import notification from "../assets/Dashboard/notification.png"
-import add_ from "../assets/Categories/addcircle.png"
 import eye from "../assets/Categories/eye.png"
 import edit from "../assets/Categories/edit.png"
 import delete_ from "../assets/Categories/delete.png"
@@ -73,15 +72,15 @@ function Bookings() {
                     <td className="text-center p-4">n/a</td>                    
                     <td className="text-center p-4">ADVANCED <br />PAYMENT</td>
                     <td className="text-center min-w-fit whitespace-nowrap overflow-x-auto">
-                        <span className="rounded-lg px-4 py-2 mr-2" style={{"background": "rgba(108, 99, 255, 1)"}}>
+                        <span className="rounded-lg px-4 py-2 mr-2 hover:cursor-pointer" style={{"background": "rgba(108, 99, 255, 1)"}}>
                             <img src={edit} alt="" className="mr-2 inline" />
                             <span className="text-black">EDIT</span> 
                         </span>
-                        <span className="rounded-lg px-4 py-2 mr-2" style={{"background": "#FFD80D"}}>
+                        <span className="rounded-lg px-4 py-2 mr-2 hover:cursor-pointer" style={{"background": "#FFD80D"}}>
                             <img src={eye} alt="" className="mr-2 inline" />
                             <span className="text-black">VIEW</span> 
                         </span>
-                        <span className="rounded-lg px-4 py-2" style={{"background": "#FF0B0B"}}>
+                        <span className="rounded-lg px-4 py-2 hover:cursor-pointer" style={{"background": "#FF0B0B"}}>
                             <img src={delete_} alt="" className="mr-2 inline" />
                             <span className="text-black">DELETE</span> 
                         </span>
@@ -94,15 +93,15 @@ function Bookings() {
                     <td className="text-center p-4">n/a</td>                                       
                     <td className="text-center p-4">ADVANCED <br />PAYMENT</td>
                     <td className="text-center min-w-fit whitespace-nowrap overflow-x-auto">
-                        <span className="rounded-lg px-4 py-2 mr-2" style={{"background": "rgba(108, 99, 255, 1)"}}>
+                        <span className="rounded-lg px-4 py-2 mr-2 hover:cursor-pointer" style={{"background": "rgba(108, 99, 255, 1)"}}>
                             <img src={edit} alt="" className="mr-2 inline" />
                             <span className="text-black">EDIT</span> 
                         </span>
-                        <span className="rounded-lg px-4 py-2 mr-2" style={{"background": "#FFD80D"}}>
+                        <span className="rounded-lg px-4 py-2 mr-2 hover:cursor-pointer" style={{"background": "#FFD80D"}}>
                             <img src={eye} alt="" className="mr-2 inline" />
                             <span className="text-black">VIEW</span> 
                         </span>
-                        <span className="rounded-lg px-4 py-2" style={{"background": "#FF0B0B"}}>
+                        <span className="rounded-lg px-4 py-2 hover:cursor-pointer" style={{"background": "#FF0B0B"}}>
                             <img src={delete_} alt="" className="mr-2 inline" />
                             <span className="text-black">DELETE</span> 
                         </span>
@@ -115,15 +114,15 @@ function Bookings() {
                     <td className="text-center p-4">n/a</td>                                        
                     <td className="text-center p-4">ADVANCED <br />PAYMENT</td>
                     <td className="text-center min-w-fit whitespace-nowrap overflow-x-auto">
-                        <span className="rounded-lg px-4 py-2 mr-2" style={{"background": "rgba(108, 99, 255, 1)"}}>
+                        <span className="rounded-lg px-4 py-2 mr-2 hover:cursor-pointer" style={{"background": "rgba(108, 99, 255, 1)"}}>
                             <img src={edit} alt="" className="mr-2 inline" />
                             <span className="text-black">EDIT</span> 
                         </span>
-                        <span className="rounded-lg px-4 py-2 mr-2" style={{"background": "#FFD80D"}}>
+                        <span className="rounded-lg px-4 py-2 mr-2 hover:cursor-pointer" style={{"background": "#FFD80D"}}>
                             <img src={eye} alt="" className="mr-2 inline" />
                             <span className="text-black">VIEW</span> 
                         </span>
-                        <span className="rounded-lg px-4 py-2 " style={{"background": "#FF0B0B"}}>
+                        <span className="rounded-lg px-4 py-2  hover:cursor-pointer" style={{"background": "#FF0B0B"}}>
                             <img src={delete_} alt="" className="mr-2 inline" />
                             <span className="text-black">DELETE</span> 
                         </span>
@@ -137,15 +136,15 @@ function Bookings() {
                     <td className="text-center p-4">n/a</td>                                       
                     <td className="text-center p-4">ADVANCED <br />PAYMENT</td>
                     <td className="text-center min-w-fit whitespace-nowrap overflow-x-auto">
-                        <span className="rounded-lg px-4 py-2 mr-2" style={{"background": "rgba(108, 99, 255, 1)"}}>
+                        <span className="rounded-lg px-4 py-2 mr-2 hover:cursor-pointer" style={{"background": "rgba(108, 99, 255, 1)"}}>
                             <img src={edit} alt="" className="mr-2 inline" />
                             <span className="text-black">EDIT</span> 
                         </span>
-                        <span className="rounded-lg px-4 py-2 mr-2" style={{"background": "#FFD80D"}}>
+                        <span className="rounded-lg px-4 py-2 mr-2 hover:cursor-pointer" style={{"background": "#FFD80D"}}>
                             <img src={eye} alt="" className="mr-2 inline" />
                             <span className="text-black">VIEW</span> 
                         </span>
-                        <span className="rounded-lg px-4 py-2 " style={{"background": "#FF0B0B"}}>
+                        <span className="rounded-lg px-4 py-2  hover:cursor-pointer" style={{"background": "#FF0B0B"}}>
                             <img src={delete_} alt="" className="mr-2 inline" />
                             <span className="text-black">DELETE</span> 
                         </span>
@@ -159,15 +158,15 @@ function Bookings() {
                     <td className="text-center p-4">n/a</td>                                        
                     <td className="text-center p-4">ADVANCED <br />PAYMENT</td>
     <td className="text-center min-w-fit whitespace-nowrap overflow-x-auto">
-        <span className="rounded-lg px-4 py-2 mr-2" style={{"background": "rgba(108, 99, 255, 1)"}}>
+        <span className="rounded-lg px-4 py-2 mr-2 hover:cursor-pointer" style={{"background": "rgba(108, 99, 255, 1)"}}>
             <img src={edit} alt="" className="mr-2 inline" />
             <span className="text-black">EDIT</span> 
         </span>
-        <span className="rounded-lg px-4 py-2 mr-2" style={{"background": "#FFD80D"}}>
+        <span className="rounded-lg px-4 py-2 mr-2 hover:cursor-pointer" style={{"background": "#FFD80D"}}>
             <img src={eye} alt="" className="mr-2 inline" />
             <span className="text-black">VIEW</span> 
         </span>
-        <span className="rounded-lg px-4 py-2 " style={{"background": "#FF0B0B"}}>
+        <span className="rounded-lg px-4 py-2  hover:cursor-pointer" style={{"background": "#FF0B0B"}}>
             <img src={delete_} alt="" className="mr-2 inline" />
             <span className="text-black">DELETE</span> 
         </span>

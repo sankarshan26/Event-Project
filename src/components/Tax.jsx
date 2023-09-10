@@ -73,15 +73,15 @@ function Tax() {
                     <td className="text-center p-4">EXCLUDING</td>                    
                     <td className="text-center p-4">YES</td>
                     <td className="text-center min-w-fit whitespace-nowrap overflow-x-auto">
-                        <span className="rounded-lg px-4 py-2 mr-2" style={{"background": "rgba(108, 99, 255, 1)"}}>
-                            <img src={edit} alt="" className="mr-2 inline" />
+                        <span className="rounded-lg px-4 py-2 mr-2hover:cursor-pointer" style={{"background": "rgba(108, 99, 255, 1)"}}>
+                            <img src={edit} alt="" className="mr-2hover:cursor-pointer inline" />
                             <span className="text-black">EDIT</span> 
                         </span>
-                        <span className="rounded-lg px-4 py-2 mr-2" style={{"background": "#FFD80D"}}>
+                        <span className="rounded-lg px-4 py-2 mr-2hover:cursor-pointer" style={{"background": "#FFD80D"}}>
                             <img src={eye} alt="" className="mr-2 inline" />
                             <span className="text-black">VIEW</span> 
                         </span>
-                        <span className="rounded-lg px-4 py-2" style={{"background": "#FF0B0B"}}>
+                        <span className="rounded-lg px-4 py-2hover:cursor-pointer" style={{"background": "#FF0B0B"}}>
                             <img src={delete_} alt="" className="mr-2 inline" />
                             <span className="text-black">DELETE</span> 
                         </span>
@@ -95,15 +95,15 @@ function Tax() {
                     <td className="text-center p-4">EXCLUDING</td>                    
                     <td className="text-center p-4">YES</td>
                     <td className="text-center min-w-fit whitespace-nowrap overflow-x-auto">
-                        <span className="rounded-lg px-4 py-2 mr-2" style={{"background": "rgba(108, 99, 255, 1)"}}>
+                        <span className="rounded-lg px-4 py-2 mr-2hover:cursor-pointer" style={{"background": "rgba(108, 99, 255, 1)"}}>
                             <img src={edit} alt="" className="mr-2 inline" />
                             <span className="text-black">EDIT</span> 
                         </span>
-                        <span className="rounded-lg px-4 py-2 mr-2" style={{"background": "#FFD80D"}}>
+                        <span className="rounded-lg px-4 py-2 mr-2hover:cursor-pointer" style={{"background": "#FFD80D"}}>
                             <img src={eye} alt="" className="mr-2 inline" />
                             <span className="text-black">VIEW</span> 
                         </span>
-                        <span className="rounded-lg px-4 py-2" style={{"background": "#FF0B0B"}}>
+                        <span className="rounded-lg px-4 py-2hover:cursor-pointer" style={{"background": "#FF0B0B"}}>
                             <img src={delete_} alt="" className="mr-2 inline" />
                             <span className="text-black">DELETE</span> 
                         </span>
@@ -117,15 +117,15 @@ function Tax() {
                     <td className="text-center p-4">EXCLUDING</td>                    
                     <td className="text-center p-4">YES</td>
                     <td className="text-center min-w-fit whitespace-nowrap overflow-x-auto">
-                        <span className="rounded-lg px-4 py-2 mr-2" style={{"background": "rgba(108, 99, 255, 1)"}}>
+                        <span className="rounded-lg px-4 py-2 mr-2hover:cursor-pointer" style={{"background": "rgba(108, 99, 255, 1)"}}>
                             <img src={edit} alt="" className="mr-2 inline" />
                             <span className="text-black">EDIT</span> 
                         </span>
-                        <span className="rounded-lg px-4 py-2 mr-2" style={{"background": "#FFD80D"}}>
+                        <span className="rounded-lg px-4 py-2 mr-2hover:cursor-pointer" style={{"background": "#FFD80D"}}>
                             <img src={eye} alt="" className="mr-2 inline" />
                             <span className="text-black">VIEW</span> 
                         </span>
-                        <span className="rounded-lg px-4 py-2" style={{"background": "#FF0B0B"}}>
+                        <span className="rounded-lg px-4 py-2hover:cursor-pointer" style={{"background": "#FF0B0B"}}>
                             <img src={delete_} alt="" className="mr-2 inline" />
                             <span className="text-black">DELETE</span> 
                         </span>
@@ -139,15 +139,15 @@ function Tax() {
                     <td className="text-center p-4">EXCLUDING</td>                    
                     <td className="text-center p-4">YES</td>
                     <td className="text-center min-w-fit whitespace-nowrap overflow-x-auto">
-                        <span className="rounded-lg px-4 py-2 mr-2" style={{"background": "rgba(108, 99, 255, 1)"}}>
+                        <span className="rounded-lg px-4 py-2 mr-2hover:cursor-pointer" style={{"background": "rgba(108, 99, 255, 1)"}}>
                             <img src={edit} alt="" className="mr-2 inline" />
                             <span className="text-black">EDIT</span> 
                         </span>
-                        <span className="rounded-lg px-4 py-2 mr-2" style={{"background": "#FFD80D"}}>
+                        <span className="rounded-lg px-4 py-2 mr-2hover:cursor-pointer" style={{"background": "#FFD80D"}}>
                             <img src={eye} alt="" className="mr-2 inline" />
                             <span className="text-black">VIEW</span> 
                         </span>
-                        <span className="rounded-lg px-4 py-2" style={{"background": "#FF0B0B"}}>
+                        <span className="rounded-lg px-4 py-2hover:cursor-pointer" style={{"background": "#FF0B0B"}}>
                             <img src={delete_} alt="" className="mr-2 inline" />
                             <span className="text-black">DELETE</span> 
                         </span>
@@ -161,15 +161,15 @@ function Tax() {
                     <td className="text-center p-4">EXCLUDING</td>                    
                     <td className="text-center p-4">YES</td>
                     <td className="text-center min-w-fit whitespace-nowrap overflow-x-auto">
-                        <span className="rounded-lg px-4 py-2 mr-2" style={{"background": "rgba(108, 99, 255, 1)"}}>
+                        <span className="rounded-lg px-4 py-2 mr-2hover:cursor-pointer" style={{"background": "rgba(108, 99, 255, 1)"}}>
                             <img src={edit} alt="" className="mr-2 inline" />
                             <span className="text-black">EDIT</span> 
                         </span>
-                        <span className="rounded-lg px-4 py-2 mr-2" style={{"background": "#FFD80D"}}>
+                        <span className="rounded-lg px-4 py-2 mr-2hover:cursor-pointer" style={{"background": "#FFD80D"}}>
                             <img src={eye} alt="" className="mr-2 inline" />
                             <span className="text-black">VIEW</span> 
                         </span>
-                        <span className="rounded-lg px-4 py-2" style={{"background": "#FF0B0B"}}>
+                        <span className="rounded-lg px-4 py-2hover:cursor-pointer" style={{"background": "#FF0B0B"}}>
                             <img src={delete_} alt="" className="mr-2 inline" />
                             <span className="text-black">DELETE</span> 
                         </span>
@@ -183,15 +183,15 @@ function Tax() {
                     <td className="text-center p-4">EXCLUDING</td>                    
                     <td className="text-center p-4">YES</td>
                     <td className="text-center min-w-fit whitespace-nowrap overflow-x-auto">
-                        <span className="rounded-lg px-4 py-2 mr-2" style={{"background": "rgba(108, 99, 255, 1)"}}>
+                        <span className="rounded-lg px-4 py-2 mr-2hover:cursor-pointer" style={{"background": "rgba(108, 99, 255, 1)"}}>
                             <img src={edit} alt="" className="mr-2 inline" />
                             <span className="text-black">EDIT</span> 
                         </span>
-                        <span className="rounded-lg px-4 py-2 mr-2" style={{"background": "#FFD80D"}}>
+                        <span className="rounded-lg px-4 py-2 mr-2hover:cursor-pointer" style={{"background": "#FFD80D"}}>
                             <img src={eye} alt="" className="mr-2 inline" />
                             <span className="text-black">VIEW</span> 
                         </span>
-                        <span className="rounded-lg px-4 py-2" style={{"background": "#FF0B0B"}}>
+                        <span className="rounded-lg px-4 py-2hover:cursor-pointer" style={{"background": "#FF0B0B"}}>
                             <img src={delete_} alt="" className="mr-2 inline" />
                             <span className="text-black">DELETE</span> 
                         </span>
@@ -205,15 +205,15 @@ function Tax() {
                     <td className="text-center p-4">EXCLUDING</td>                    
                     <td className="text-center p-4">YES</td>
                     <td className="text-center min-w-fit whitespace-nowrap overflow-x-auto">
-                        <span className="rounded-lg px-4 py-2 mr-2" style={{"background": "rgba(108, 99, 255, 1)"}}>
+                        <span className="rounded-lg px-4 py-2 mr-2hover:cursor-pointer" style={{"background": "rgba(108, 99, 255, 1)"}}>
                             <img src={edit} alt="" className="mr-2 inline" />
                             <span className="text-black">EDIT</span> 
                         </span>
-                        <span className="rounded-lg px-4 py-2 mr-2" style={{"background": "#FFD80D"}}>
+                        <span className="rounded-lg px-4 py-2 mr-2hover:cursor-pointer" style={{"background": "#FFD80D"}}>
                             <img src={eye} alt="" className="mr-2 inline" />
                             <span className="text-black">VIEW</span> 
                         </span>
-                        <span className="rounded-lg px-4 py-2" style={{"background": "#FF0B0B"}}>
+                        <span className="rounded-lg px-4 py-2hover:cursor-pointer" style={{"background": "#FF0B0B"}}>
                             <img src={delete_} alt="" className="mr-2 inline" />
                             <span className="text-black">DELETE</span> 
                         </span>
