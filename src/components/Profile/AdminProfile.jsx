@@ -2,17 +2,12 @@ import React,{useState} from 'react'
 import Header from "../Header";
 import profile from "../../assets2/Profile/profile.png";
 
-function AdminProfile({
-    admin_dropdown,
-    handleAdmin_dropdown,
-    handlesmall_header_open,
-    small_header_open,
-  }) {
+function AdminProfile() {
 
     const [currstate, setCurrstate] = useState("Personal Details");
   return (
     <div className='bg-black min-h-screen'>
-        <Header admin_dropdown={admin_dropdown} handleAdmin_dropdown={handleAdmin_dropdown} handlesmall_header_open={handlesmall_header_open} small_header_open={small_header_open} />
+        <Header />
 
         <div className="content text-white flex font-cinzel flex-col sm:flex-row sm:gap-4 lg:gap-8">
         <div className="sidebar text-black font-semibold mt-4 flex justify-center sm:block ">

@@ -40,7 +40,7 @@ function login() {
           <input
             type="password"
             htmlFor="password"
-            className="block w-full mt-2"
+            className="block w-full mt-2 "
             style={input_brdr}
           />
         </div>

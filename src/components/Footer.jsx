@@ -4,11 +4,13 @@ import facebook from "../assets/Footer/facebook.png"
 import twitter from "../assets/Footer/icontwitter.png"
 import whatsapp from "../assets/Footer/whatsapp.png"
 import insta from "../assets/Footer/instagram.png"
+import {Link} from "react-router-dom"
 
 function Footer() {
   return (
     <div className='flex bg-black flex-col justify-center items-center font-cinzel pb-10 pt-4'>
-        <img src={logo} alt="" className="sm:h-[50px]" />
+        <Link to="/home">
+        <img src={logo} alt="" className="sm:h-[50px]" /></Link>
 
         <div className='flex flex-col lg:flex-row gap-14 mt-8'>
             <ul className='flex flex-col justify-center items-center gap-3'>

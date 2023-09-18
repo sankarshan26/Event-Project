@@ -31,23 +31,17 @@ import publish from "../assets/Home/publishevent.png";
 import favevent from "../assets/Home/favoriteevents.png";
 import ticket from "../assets/Home/eventtickets.png";
 import centerevent from "../assets/Home/centerevent.png"
+import { admin_dropdown } from "../App";
+import { small_header_open } from "../App";
+import { useAtom } from "jotai";
 
-
-function home({
-  admin_dropdown,
-  handleAdmin_dropdown,
-  handlesmall_header_open,
-  small_header_open,
-}) {
+function Home() {
+  const [admin_drop, handleAdmin_drop] = useAtom(admin_dropdown);
+  const [small_header, handlesmall_header] = useAtom(small_header_open);
   return (
     <div className="bg-transparent ">
       <div className="home-top hidden md:block">
-        <Header
-          admin_dropdown={admin_dropdown}
-          handleAdmin_dropdown={handleAdmin_dropdown}
-          handlesmall_header_open={handlesmall_header_open}
-          small_header_open={small_header_open}
-        />
+        <Header/>
         <div className="flex justify-start flex-col mt-12 ">
           <div className="flex  flex-col w-1/2 justify-center items-center mt-14">
             <div className="w-1/2 text-white text-[40px] font-bold font-cinzel text-center">
@@ -67,17 +61,12 @@ function home({
       </div>
 
       <div className="home-top_small block md:hidden">
-        <Header
-          admin_dropdown={admin_dropdown}
-          handleAdmin_dropdown={handleAdmin_dropdown}
-          handlesmall_header_open={handlesmall_header_open}
-          small_header_open={small_header_open}
-        />
+        <Header/>
         <div className="flex justify-start flex-col mt-12 ">
           <div className="flex  flex-col justify-center items-center mt-14">
             <div
               className={
-                small_header_open
+                small_header
                   ? "text-white text-[40px] font-bold font-cinzel text-center opacity-25"
                   : "text-white text-[40px] font-bold font-cinzel text-center opacity-100"
               }
@@ -638,4 +627,4 @@ function home({
   );
 }
 
-export default home;
+export default Home;

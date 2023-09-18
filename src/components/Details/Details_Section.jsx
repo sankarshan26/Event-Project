@@ -4,22 +4,12 @@ import Topbar from "./Topbar";
 import add_ from "../../assets/Categories/addcircle.png";
 import phto from "../../assets2/Details/gallery.png"
 
-function Detailssection({
-  admin_dropdown,
-  handleAdmin_dropdown,
-  handlesmall_header_open,
-  small_header_open,
-}) {
+function Detailssection() {
   const [currstate, setCurrstate] = useState("Details");
 
   return (
     <div className="bg-black min-h-screen" >
-      <Topbar
-        admin_dropdown={admin_dropdown}
-        handleAdmin_dropdown={handleAdmin_dropdown}
-        handlesmall_header_open={handlesmall_header_open}
-        small_header_open={small_header_open}
-      />
+      <Topbar/>
 
       <div className="content text-white flex font-cinzel flex-col sm:flex-row sm:gap-4 lg:gap-8">
         <div className="sidebar text-black font-semibold mt-4 flex justify-center sm:block ">
@@ -161,7 +151,7 @@ function Detailssection({
             </label>
             <select
               htmlFor="Category"
-              className="p-2 border border-white bg-black sm:h-16 mt-1 rounded-md max-w-4xl">              
+              className="p-2 border border-white bg-black sm:h-16 mt-1 rounded-md max-w-4xl" required>              
               <option value="Option1">Option 1</option>
               <option value="Option2">Option 2</option>
               <option value="Option3">Option 3</option>
@@ -176,7 +166,7 @@ function Detailssection({
             <input
               type="text"
               name="event-name"
-              className="p-2 border border-white bg-black sm:h-16 mt-1 rounded-md max-w-4xl"/>
+              className="p-2 border border-white bg-black sm:h-16 mt-1 rounded-md max-w-4xl" required/>
             <label
               htmlFor="event-url"
               className="font-cinzel font-bold sm:text-xl mt-4 sm:mt-6"
@@ -186,7 +176,7 @@ function Detailssection({
             <input
               type="url"
               name="event-url"
-              className="p-2 border border-white bg-black sm:h-16 mt-1 rounded-md max-w-4xl"/>
+              className="p-2 border border-white bg-black sm:h-16 mt-1 rounded-md max-w-4xl" required/>
             <label
               htmlFor="event-description"
               className="font-cinzel font-bold sm:text-xl mt-4 sm:mt-6">
@@ -196,7 +186,7 @@ function Detailssection({
               type="text"
               name="event-description"
               rows={3}
-              className="p-2 border border-white bg-black sm:h-16 mt-1 rounded-md max-w-4xl">
+              className="p-2 border border-white bg-black sm:h-16 mt-1 rounded-md max-w-4xl" required>
               {" "}
             </textarea>
 
@@ -209,7 +199,7 @@ function Detailssection({
               type="text"
               name="office-payment-instructions"
               rows={3}
-              className="p-2 border border-white bg-black sm:h-16 mt-1 rounded-md max-w-4xl">
+              className="p-2 border border-white bg-black sm:h-16 mt-1 rounded-md max-w-4xl" required>
               {" "}
             </textarea>
 
@@ -217,7 +207,7 @@ function Detailssection({
               <button
                 type="submit"
                 style={{background:"linear-gradient(90deg, rgba(216, 7, 250, 0.76) 0%, #FF0CBB 94.49%)",}}
-                className="w-fit px-8 py-3 rounded-2xl">Save Info</button>
+                className="w-fit px-8 py-3 rounded-2xl" >Save Info</button>
             </div>
           </form>}
 

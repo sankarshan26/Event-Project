@@ -9,20 +9,10 @@ import tree from "../assets/LuxeView/tree.png"
 import breakfast1 from "../assets/LuxeView/breakfast.png"
 import breakfast2 from "../assets/LuxeView/breakfast2.png"
 
-function Luxeview({
-    admin_dropdown,
-    handleAdmin_dropdown,
-    handlesmall_header_open,
-    small_header_open,
-  }) {
+function Luxeview() {
   return (
     <div className='bg-black' style={{"text-transform":"none"}}>
-        <Header
-          admin_dropdown={admin_dropdown}
-          handleAdmin_dropdown={handleAdmin_dropdown}
-          handlesmall_header_open={handlesmall_header_open}
-          small_header_open={small_header_open}
-        />
+        <Header/>
 
         <div className='flex flex-col text-white font-cinzel'>
             <div className=' flex justify-center '><img src={newyork} alt="" className=' w-[90%] max-w-[1000px]' /></div>
@@ -91,4 +81,4 @@ function Luxeview({
   )
 }
 
-export default Luxeview
+export default Luxeview;
