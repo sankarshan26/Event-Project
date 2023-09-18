@@ -73,7 +73,7 @@ function App() {
         {/* A <Switch> looks through its children <Route>s and
             renders the first one that matches the current URL. */}
         <Routes>
-        <Route path="/" element={<Login/>} />
+        <Route path="/" element={<Home/>} />
         <Route path="/venue" element={<Venue/>} />
         <Route path="/login" element={<Login/>} />
         <Route path="/home" element={<Home/>} /> 
