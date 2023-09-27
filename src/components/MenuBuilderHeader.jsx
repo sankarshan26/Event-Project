@@ -2,7 +2,7 @@ import React, {useState} from "react";
 import Sidebar from "./Sidebar";
 import edit from "../assets/Categories/edit.png";
 import delete_ from "../assets/Categories/delete.png";
-
+import { Link } from "react-router-dom";
 function MenuBuilder() {
 
     const[lang_state, setlang_state] = useState("EN");
@@ -152,7 +152,7 @@ function MenuBuilder() {
             </div>
             
             <div className="border border-white flex flex-wrap gap-3 justify-between overflow-x-auto py-4 px-8 rounded-xl font-cinzel text-lg font-bold">
-               <span>POPULAR BLOGS</span> 
+               <span><Link to="/blog">POPULAR BLOGS</Link> </span> 
                <span className="text-center min-w-fit whitespace-nowrap ">
                         <span className="rounded-lg px-4 py-1 mr-2 hover:cursor-pointer" style={{"background": "rgba(108, 99, 255, 1)"}}>
                             <img src={edit} alt="" className="mr-2 inline" />

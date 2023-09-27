@@ -13,7 +13,7 @@ import delete_ from "../assets/Categories/delete.png"
 import business from "../assets/Categories/business.png"
 import music from "../assets/Categories/music.png"
 import arr2 from "../assets/Categories/arr2.png"
-
+import { Link } from "react-router-dom";
 function Categories() {
 
     
@@ -81,10 +81,12 @@ function Categories() {
                             <img src={edit} alt="" className="mr-2 inline" />
                             <span className="text-black">EDIT</span> 
                         </span>
+                        <Link to="/yoga">
                         <span className="rounded-lg px-4 py-2 mr-2 hover:cursor-pointer" style={{"background": "#FFD80D"}}>
                             <img src={eye} alt="" className="mr-2 inline" />
                             <span className="text-black">VIEW</span> 
-                        </span>
+                            </span>
+                                          </Link>
                         <span className="rounded-lg px-4 py-2 hover:cursor-pointer" style={{"background": "#FF0B0B"}}>
                             <img src={delete_} alt="" className="mr-2 inline" />
                             <span className="text-black">DELETE</span> 
@@ -101,10 +103,12 @@ function Categories() {
                             <img src={edit} alt="" className="mr-2 inline" />
                             <span className="text-black">EDIT</span> 
                         </span>
+                        <Link to="/business">
                         <span className="rounded-lg px-4 py-2 mr-2 hover:cursor-pointer" style={{"background": "#FFD80D"}}>
                             <img src={eye} alt="" className="mr-2 inline" />
                             <span className="text-black">VIEW</span> 
                         </span>
+                        </Link>
                         <span className="rounded-lg px-4 py-2 hover:cursor-pointer" style={{"background": "#FF0B0B"}}>
                             <img src={delete_} alt="" className="mr-2 inline" />
                             <span className="text-black">DELETE</span> 
@@ -142,10 +146,12 @@ function Categories() {
                             <img src={edit} alt="" className="mr-2 inline" />
                             <span className="text-black">EDIT</span> 
                         </span>
+                        <Link to="/vr">
                         <span className="rounded-lg px-4 py-2 mr-2 hover:cursor-pointer" style={{"background": "#FFD80D"}}>
                             <img src={eye} alt="" className="mr-2 inline" />
                             <span className="text-black">VIEW</span> 
                         </span>
+                        </Link>
                         <span className="rounded-lg px-4 py-2  hover:cursor-pointer" style={{"background": "#FF0B0B"}}>
                             <img src={delete_} alt="" className="mr-2 inline" />
                             <span className="text-black">DELETE</span> 
