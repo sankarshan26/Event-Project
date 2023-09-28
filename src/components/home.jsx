@@ -34,6 +34,10 @@ import centerevent from "../assets/Home/centerevent.png"
 import { admin_dropdown } from "../App";
 import { small_header_open } from "../App";
 import { useAtom } from "jotai";
+import { Link } from "react-router-dom";
+import BoilerPlate from "./Customer/BoilerPlate";
+
+
 
 function Home() {
   const [admin_drop, handleAdmin_drop] = useAtom(admin_dropdown);
@@ -105,6 +109,7 @@ function Home() {
         </div>
         <div className="flex flex-row flex-wrap justify-center gap-14">
           <div className="flex flex-col gap-10 mb-10">
+            <Link to="/wine">
             <div className="relative">
               <img
                 src={winter}
@@ -123,6 +128,8 @@ function Home() {
                 Embrace the Chill, Sip & Drink{" "}
               </div>
             </div>
+            </Link>
+            <Link to="/yoga">
 
             <div className="relative">
               <img
@@ -138,6 +145,7 @@ function Home() {
                 style={{ background: "rgba(0, 0, 0, 0.42)" }}
               ></div>
             </div>
+            </Link>
           </div>
 
           <div className="flex flex-col gap-10 mb-10">
@@ -259,6 +267,7 @@ function Home() {
           OUR EVENT CATEGORIES
         </div>
         <div className="flex justify-center items-center mb-4 gap-6 flex-wrap">
+          <Link to="/yoga">
           <div
             className="relative flex h-[300px] flex-col bg-white w-[250px] sm:w-[300px]"
             style={{
@@ -283,7 +292,8 @@ function Home() {
               Yoga & Health
             </div>
           </div>
-
+</Link>
+          <Link to="/marketing">
           <div
             className="relative flex h-[300px] flex-col bg-white w-[250px] sm:w-[300px]"
             style={{
@@ -310,6 +320,7 @@ function Home() {
               Business & Seminars
             </div>
           </div>
+            </Link>
 
           <div
             className="relative flex h-[300px] flex-col bg-white w-[250px] sm:w-[300px]"
@@ -364,7 +375,7 @@ function Home() {
               Travel & Trekking
             </div>
           </div>
-
+<Link to="/yoga">
           <div
             className="relative flex h-[300px] flex-col bg-white w-[250px] sm:w-[300px]"
             style={{
@@ -389,7 +400,8 @@ function Home() {
               Yoga & Health
             </div>
           </div>
-
+          </Link>
+          <Link to ="/marketing">
           <div
             className="relative flex h-[300px] flex-col bg-white w-[250px] sm:w-[300px]"
             style={{
@@ -415,7 +427,8 @@ function Home() {
             >
               Business & Seminars
             </div>
-          </div>
+            </div>
+            </Link>
 
           <div
             className="relative flex h-[300px] flex-col bg-white w-[250px] sm:w-[300px]"

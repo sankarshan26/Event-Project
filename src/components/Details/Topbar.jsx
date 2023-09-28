@@ -24,7 +24,7 @@ function Header() {
           <li className="hover:cursor-pointer"><Link to="/home">HOME</Link></li>
           <li className="hover:cursor-pointer"><Link to="/venue">VENUE</Link></li>
           <li className="hover:cursor-pointer"><Link to="/categories">CATEGORIES</Link></li>
-          <li className="hover:cursor-pointer">BLOGS</li>
+          <li className="hover:cursor-pointer"><Link to="/blog-customer">BLOGS</Link></li>
           <li
             className="hover:cursor-pointer text-white px-6 py-2 rounded-xl"
             style={{

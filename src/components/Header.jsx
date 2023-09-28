@@ -113,7 +113,7 @@ function Header() {
           <li className="hover:cursor-pointer"><Link to="/details">CREATE EVENT</Link></li>
           <li className="hover:cursor-pointer"><Link to="/venue">VENUE</Link></li>
           <li className="hover:cursor-pointer"><Link to="/categories">CATEGORIES</Link></li>
-          <li className="hover:cursor-pointer">BLOGS</li>
+          <li className="hover:cursor-pointer"><Link to="/blog">BLOGS</Link> </li>
           <li className="flex flex-row items-center hover:cursor-pointer">
             <img src={global} alt="" className="w-[25px]" />
             <svg
